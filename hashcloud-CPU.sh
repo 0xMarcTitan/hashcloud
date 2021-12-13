@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by marc@theirosecurity.com
-# Creaton on 13/12/2021
+# Created on 13/12/2021
 # Created specifcally for CPU using opencl
 # Please see readme on github @ https://github.com/theirsecurity/cloudcat
 
