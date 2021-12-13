@@ -1,19 +1,19 @@
-<h1 align="center">Welcome to cloudcat 👋</h1>
+<h1 align="center">Welcome to hashcloud 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-POC-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/theirsecurity/cloudcat" target="_blank">
+  <a href="https://github.com/theirsecurity/hashcloud" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
 </p>
 
 > This script is an initial POC to set up a cloud server automatically with Hashcat, Seclist and OpenCL drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on Vultr's hosting platform and evidence of this can be seen either on my blog or youtube.
 
-### 🏠 [Homepage](https://github.com/theirsecurity/cloudcat)
+### 🏠 [Homepage](https://github.com/theirsecurity/hashcloud)
 
 ## Install
 
 ```sh
-git clone https://github.com/theirsecurity/cloudcat
+git clone https://github.com/theirsecurity/hashcloud
 ```
 
 ## Usage
