@@ -1,30 +1,36 @@
-_________          _______ _________ _______       _______  _______  _______           _______ __________________         
-/\\__   __/|\     /|(  ____ \\__   __/(  ____ )     (  ____ \(  ____ \(  ____ \|\     /|(  ____ )\__   __/\__   __/|\     /|
-/ /   ) (   | )   ( || (    \/   ) (   | (    )|     | (    \/| (    \/| (    \/| )   ( || (    )|   ) (      ) (   ( \   / )
-/ /    | |   | (___) || (__       | |   | (____)|     | (_____ | (__    | |      | |   | || (____)|   | |      | |    \ (_) /
-/ /     | |   |  ___  ||  __)      | |   |     __)     (_____  )|  __)   | |      | |   | ||     __)   | |      | |     \   /  
-/ /      | |   | (   ) || (         | |   | (\ (              ) || (      | |      | |   | || (\ (      | |      | |      ) (   
-/ /       | |   | )   ( || (____/\___) (___| ) \ \__     /\____) || (____/\| (____/\| (___) || ) \ \_____) (___   | |      | |   
-\/        )_(   |/     \|(_______/\_______/|/   \__/_____\_______)(_______/(_______/(_______)|/   \__/\_______/   )_(      \_/   
-                                            (_____)                                                                       
-Cloudcat POC
+<h1 align="center">Welcome to cloudcat 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-POC-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/theirsecurity/cloudcat" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+</p>
 
-//Overview
-This script is an initial POC to set up a cloud server automatically with Hashcat, Seclist and OpenCL drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on Vultr's hosting platform and evidence of this can be seen either on my blog or youtube.
+> This script is an initial POC to set up a cloud server automatically with Hashcat, Seclist and OpenCL drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on Vultr's hosting platform and evidence of this can be seen either on my blog or youtube.
 
-//Usage
-To use this first access your cloud server (either through SSH or online terminal)
-Use;
+### 🏠 [Homepage](https://github.com/theirsecurity/cloudcat)
+
+## Install
+
+```sh
 git clone https://github.com/theirsecurity/cloudcat
+```
+
+## Usage
+
+```sh
 Identify the script that applies to your cloud server then use
-chmod +x <BASH_SCRIPT_NAME>
-./<BASH_SCRIPT_NAME>
+chmod +x BASH_SCRIPT_NAME
+./BASH_SCRIPT_NAME
 
 Once this has run you need to copy over the hash file you want to use with hascat, i did this using SCP to the /root/hashes folder e.g
-scp /<INSERT_LOCAL_HASH_DIRECTORY> <CLOUD_USERNAME>@<CLOUD_IP>:/hashes
+scp /INSERT_LOCAL_HASH_DIRECTORY CLOUD_USERNAME@CLOUD_IP:/hashes
+```
 
-//Next Steps
-Over the next few days there will be more updates to this as a GPU Script will be added once tested and also showing some benchmarks on my site and YT.
+## Author
 
-//Contact
-marc@theirsecurity.com
+👤 **Marc@theirsecurity.com**
+
+* Website: https://theirsecurity.com
+* Github: [@theirsecurity](https://github.com/theirsecurity)
+
