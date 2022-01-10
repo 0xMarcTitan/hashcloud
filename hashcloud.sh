@@ -1,6 +1,6 @@
 #!/bin/bash
 #Test Script + Root Check + All versions
-# V0.0.6 added Deb,Arch,Fedora,Ubuntu
+# V0.6.0 added Deb,Arch,Fedora,Ubuntu
 
 #Vars
 OS=""

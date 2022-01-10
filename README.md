@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to hashcloud 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.6-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.6.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/theirsecurity/hashcloud" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -30,7 +30,7 @@ To set which linux distribution you will be installing on use one of the below
 ./hashcat.sh -o deb #This is for any debian based distros
 ./hashcat.sh -o fedora
 ./hashcat.sh -o arch
-./hashcat.sh -o ubuntu 
+./hashcat.sh -o ubuntu
 
 Once this has run you need to copy over the hash file you want to use with hascat, i did this using SCP to the /root/hashes folder e.g
 scp /INSERT_LOCAL_HASH_DIRECTORY CLOUD_USERNAME@CLOUD_IP:/hashes
