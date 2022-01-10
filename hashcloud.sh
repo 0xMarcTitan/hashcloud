@@ -1,11 +1,11 @@
 #!/bin/bash
 #Test Script + Root Check + All versions
-# Alma, Arch, Cent, Debian, Fedora, Rocky, Ubuntu, VzLinux
+# V0.0.6 added Deb,Arch,Fedora,Ubuntu
 
 #Vars
 OS=""
 GRAPHICS=""
-VERS="0.60"
+VERS="0.6.0"
 
 #border function
 border()
