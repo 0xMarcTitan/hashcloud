@@ -49,7 +49,7 @@ exit_abnormal() {
 exit_restart() {
   read -p "As you have Installed support for $GRAPHICSNAME GPU's, a reboot is required to work correctly. do you want to restart now?" yn
   case $yn in
-      [Yy]* ) border "Restarting Now" && echo "RESTART COMMAND SENT" && exit 1;;
+      [Yy]* ) border "Restarting Now" && echo "RESTART COMMAND SENT" && sudo reboot && exit 1;;
       [Nn]* ) border "informantion" && echo "You will need to restart for the $GRAPHICSNAME GPU to show within hashcat" && exit 1;;
       * ) echo "Please answer yes or no.";;
   esac
