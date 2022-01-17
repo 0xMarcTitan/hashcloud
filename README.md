@@ -16,6 +16,11 @@
 git clone https://github.com/theirsecurity/hashcloud
 ```
 
+## hascloud vs hashcloud2500
+
+If you intend to use hashcat mode 2500 you can use the hashcloud2500 script.
+This will install Hashcat V6.1.1 where mode 2500 is still supported 
+
 ## Usage
 
 ```sh
