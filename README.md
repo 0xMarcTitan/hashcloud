@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> This script sets up a cloud server automatically with Hashcat, Seclist and OpenCL drivers and GPU Drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on Vultr's hosting platform and evidence of this can be seen either on my blog or youtube. This version adds support for 4 different linux distributions. .
+> This script sets up a cloud server automatically with Hashcat, Seclist and OpenCL drivers and GPU Drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on multiple hosting platforms (Vultr, Digital Ocean and CoreWeave) and evidence of this can be seen either on my blog or youtube. This version adds support for 4 different linux distributions. .
 
 ### 🏠 [Homepage](https://github.com/theirsecurity/hashcloud)
 
