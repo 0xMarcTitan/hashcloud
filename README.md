@@ -8,12 +8,11 @@
 
 > This script sets up a cloud server automatically with Hashcat, Seclist and OpenCL drivers and GPU Drivers to enable hashcat to run on the cloud with minimal user set up. I have tested this on multiple hosting platforms (Vultr, Digital Ocean and CoreWeave) and evidence of this can be seen either on my blog or youtube. This version adds support for 4 different linux distributions. .
 
-### 🏠 [Homepage](https://github.com/theirsecurity/hashcloud)
 
 ## Install
 
 ```sh
-git clone https://github.com/theirsecurity/hashcloud
+git clone https://github.com/0xMarcTitan/hashcloud
 ```
 
 ## hascloud vs hashcloud2500
@@ -48,7 +47,5 @@ scp /INSERT_LOCAL_HASH_DIRECTORY CLOUD_USERNAME@CLOUD_IP:/hashes
 
 ## Author
 
-👤 **Marc@theirsecurity.com**
+👤 **Marc**
 
-* Website: https://theirsecurity.com
-* Github: [@theirsecurity](https://github.com/theirsecurity)
